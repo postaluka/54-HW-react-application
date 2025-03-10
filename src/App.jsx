@@ -2,7 +2,6 @@ import { useEffect, useMemo, useState } from "react"
 
 import Clicker from "./Clicker.jsx"
 import TotalCount from "./TotalCount.jsx"
-import { value } from "canvas-sketch-util/random.js"
 
 export default function App({ clickerCount })
 {
