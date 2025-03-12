@@ -41,15 +41,29 @@
 
 .body__ui__buttons {
 
-    /* 
-    background-color: green; */
+
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* Додає перенесення кнопок вниз */
+    gap: 10px;
+    /* Відступи між кнопками */
+    padding: 10px;
+
 }
 
-.body__buttons {
+.body__buttons,
+.body__buttonHide,
+.body__buttonShow {
     font-family: 'Poppins', sans-serif;
     margin: 7px;
     background-color: white;
     font-size: 20px;
+    white-space: nowrap;
+    padding: 10px 20px;
+    cursor: pointer;
 }
 
 .body__buttonHide {
@@ -66,4 +80,32 @@
     background-color: white;
     color: black;
     font-size: 20px;
+}
+
+.people {
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.people__card {
+
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* Додає перенесення кнопок вниз */
+    /* gap: 10px; */
+    /* Відступи між кнопками */
+    /* padding: 10px; */
+}
+
+.people__card h3 {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.people h2 {
+    text-align: center;
 }

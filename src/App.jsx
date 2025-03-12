@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from "react"
 
 import Clicker from "./Clicker.jsx"
 import TotalCount from "./TotalCount.jsx"
+import People from "./People.jsx"
 
 export default function App({ clickerCount })
 {
@@ -96,6 +97,8 @@ export default function App({ clickerCount })
         <div>
             {hasClicker ? <TotalCount totalCount={totalCount} /> : null}
         </div>
+
+        <div> <People /> </div>
 
     </>
 }
